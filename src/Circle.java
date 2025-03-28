@@ -21,12 +21,7 @@ public class Circle {
     }
 
     public void setRadius(int radius) {
-        if (radius < 0){
-            this.radius = 0;
-            System.out.println("Radius can't be negative");
-        }else {
-            this.radius = radius;
-
-        }
+        
+        this.radius = radius;
     }
 }
